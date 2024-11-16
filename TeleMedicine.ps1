@@ -1,11 +1,11 @@
-﻿cls
-cd D:\AutomationBuildandRun
+﻿Clear-Host
+Set-Location D:\AutomationBuildandRun
 # "Step 1 copy the code to my local drive
 Write-Output "Step 1 Started cloning..."
 git clone https://github.com/VictorCaunders/bmedhealthcare.git --quiet
 Write-Output "Cloning finished..."
 Write-Output "Step 2 Change to Angular director..."
-cd .\Telemedicine\FewaTelemedicine\ClientApp
+Set-Location .\bmedhealthcare\FewaTelemedicine\ClientApp
 Write-Output "Step 3 Start installing angular..."
 # this command install angular
 npm install
@@ -37,4 +37,4 @@ Write-Output "Step DB Creation finished..."
 Write-Output "Step 9 Running the application..."
 dotnet build 
 dotnet run
-start ‘https://localhost:5001’
+Start-Process ‘https://localhost:5001’

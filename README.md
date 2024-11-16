@@ -10,10 +10,7 @@ Below  is the basic flow of the project.
 5. Doctor and patients can also send chat messages to each other. 
 6. Patients can also share documents with doctor.
 
-
-
 Features :-
-
 Application supports Multi doctor and Multihospital.
 
 Medication can be filled by Doc

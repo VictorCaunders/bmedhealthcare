@@ -26,7 +26,5 @@ Patients can share document with doctors while conferencing.
 
 Tracks time spent per call between doctor and patient.
 
-Its created using Angular as front end and .NET core as back end and postgre database. Any further technical clarification send me mail at shiv_koirala@yahoo.com.
+Its created using Angular as front end and .NET core as back end and postgre database. 
 
-This complete initative is funded by https://danphehealth.com . 
---

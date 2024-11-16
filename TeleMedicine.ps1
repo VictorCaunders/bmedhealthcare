@@ -2,7 +2,7 @@
 cd D:\AutomationBuildandRun
 # "Step 1 copy the code to my local drive
 Write-Output "Step 1 Started cloning..."
-git clone https://github.com/opensource-emr/Telemedicine --quiet
+git clone https://github.com/VictorCaunders/bmedhealthcare.git --quiet
 Write-Output "Cloning finished..."
 Write-Output "Step 2 Change to Angular director..."
 cd .\Telemedicine\FewaTelemedicine\ClientApp
